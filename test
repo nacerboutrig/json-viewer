@@ -1,0 +1,24 @@
+{
+    "thingId": "org.eclipse.ditto.example:demothing",
+    "acl": {
+        "ditto": {
+            "READ": true,
+            "WRITE": true,
+            "ADMINISTRATE": true
+        }
+    },
+    "attributes": {
+        "manufacturer": "Demo Manfacturer",
+        "hostname": "Demohost"
+    },
+    "features": {
+        "TemperatureSensor": {
+            "properties": {
+                "temperatureValue": 20.5,
+                "lastUpdate": "2019-10-16 15:07:31.436733",
+                "samplingRate": 1
+            }
+        }, ….. 
+        }      
+    }
+}
